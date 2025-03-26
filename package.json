@@ -7,14 +7,24 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server ./server/data.json --port 8888"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.6.1",
+    "antd-mobile": "^5.39.0",
+    "axios": "^1.8.4",
+    "classnames": "^2.5.1",
+    "dayjs": "^1.11.13",
+    "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.4.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@types/node": "^22.13.13",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",

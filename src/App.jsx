@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <div>记账本应用初始化</div>
+      <div>记账本应123123用初始化</div>
     </>
   )
 }
